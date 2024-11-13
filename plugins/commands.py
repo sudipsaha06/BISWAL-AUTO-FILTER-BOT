@@ -143,9 +143,9 @@ async def start(client:Client, message):
                             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                             ],[
                             InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                            InlineKeyboardButton('🎗️ Update', callback_data='features'),
+                            InlineKeyboardButton('🎗️ ᴜᴘᴅᴀᴛᴇ', callback_data='features'),
                             ],
-                            [InlineKeyboardButton('🎭 help✨', callback_data='about'),
+                            [InlineKeyboardButton('🎭 ʜᴇʟᴘ✨', callback_data='about'),
                             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
                            
                             ],
@@ -175,9 +175,9 @@ async def start(client:Client, message):
                             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                             ],[
                             InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                            InlineKeyboardButton('🎗️ Update', callback_data='features'),
+                            InlineKeyboardButton('🎗️ ᴜᴘᴅᴀᴛᴇ', callback_data='features'),
                             ],
-                            [InlineKeyboardButton('🎭 help✨', callback_data='about'),
+                            [InlineKeyboardButton(' ʜᴇʟᴘ✨', callback_data='about'),
                             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
                            
                             ],
@@ -233,8 +233,8 @@ async def start(client:Client, message):
                             ],[
                             InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
                             InlineKeyboardButton('🎗️ Update', callback_data='features'),
-                            ],
-                            [InlineKeyboardButton('🎭 help✨', callback_data='about'),
+                            ],ᴜᴘᴅᴀᴛᴇ
+                            [InlineKeyboardButton('ʜᴇʟᴘ✨', callback_data='about'),
                             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
                            
                             ],

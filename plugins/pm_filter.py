@@ -778,22 +778,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
-                            ],[
-                            InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                            InlineKeyboardButton('🎗️ Update', callback_data='features'),
-                            ],
-                            [InlineKeyboardButton('🎭 help✨', callback_data='about'),
-                            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
+        InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+        ],[
+        InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
+        InlineKeyboardButton('🎗️ Update', callback_data='features'),
+        ],
+        [InlineKeyboardButton('🎭 help✨', callback_data='about'),
+        InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
                            
-                            ],
-                            [
-	                        InlineKeyboardButton('ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ  🎁', callback_data=f'free_premium#{message.from_user.id}'),
-	                        InlineKeyboardButton('🎗️ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
-                             
-                            ],
-                            [
-                            InlineKeyboardButton('🤞🏻 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🤡', callback_data='earn')
+        ],
+        [
+	InlineKeyboardButton('ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ  🎁', callback_data=f'free_premium#{message.from_user.id}'),
+	InlineKeyboardButton('🎗️ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),                     
+        ],
+        [
+	InlineKeyboardButton('🤞🏻 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🤡', callback_data='earn')
                             ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
